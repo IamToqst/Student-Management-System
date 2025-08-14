@@ -20,7 +20,7 @@ public class SYSTEMJAVA
         "=   \u001B[31m  ▀▀███████▄████▄    ▀█████▀ \u001B[0m ▀████▀███▄ ██████▀     ▄████▄   =\n" +
         "=   \u001B[31m                                     \u001B[0m    ██                   =\n" +
         "\u001B[1m===============================================================+===\u001B[0m";
-    private static final String menu = "\n\n\u001B[1mICCT Student Management System.\u001B[0m\n" +
+    private static final String menu = "\n\n\u001B[1mXXXX Student Management System.\u001B[0m\n" +
         "\n\u001b[47m\u001B[1mPress 1 | ➤ \u001B[0m to \u001B[31mAdd a new student\u001B[0m" +
         "\n\u001b[47m\u001B[1mPress 2 | ➤ \u001B[0m to \u001B[31mView all students\u001B[0m" +
         "\n\u001b[47m\u001B[1mPress 3 | ➤ \u001B[0m to \u001B[31mDelete a student file\u001B[0m" +
