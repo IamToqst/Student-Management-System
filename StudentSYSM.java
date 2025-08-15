@@ -6,7 +6,8 @@ class FormState {
     public static void reset() { name = ""; lrn = ""; strand = ""; }
 }
 
-public class StudentSYSM {
+public class SYSTEMJAVA 
+{
     private static final File folder = new File("users");
     private static final Scanner sc = new Scanner(System.in);
     private static final String banner = "\u001B[1m===================================================================\u001B[0m\n" +
@@ -18,14 +19,24 @@ public class StudentSYSM {
         "=   \u001B[31m▀██▄     ██  ██     ██▄   ▄██ \u001B[0m ██    ██   ██   ▄██      ██    =\n" +
         "=   \u001B[31m  ▀▀███████▄████▄    ▀█████▀ \u001B[0m ▀████▀███▄ ██████▀     ▄████▄   =\n" +
         "=   \u001B[31m                                     \u001B[0m    ██                   =\n" +
-        "\u001B[1m===================================================================\u001B[0m";
+        "\u001B[1m===============================================================+===\u001B[0m";
     private static final String menu = "\n\n\u001B[1mXXXX Student Management System.\u001B[0m\n" +
         "\n\u001b[47m\u001B[1mPress 1 | ➤ \u001B[0m to \u001B[31mAdd a new student\u001B[0m" +
         "\n\u001b[47m\u001B[1mPress 2 | ➤ \u001B[0m to \u001B[31mView all students\u001B[0m" +
         "\n\u001b[47m\u001B[1mPress 3 | ➤ \u001B[0m to \u001B[31mDelete a student file\u001B[0m" +
         "\n\u001b[47m\u001B[1mPress 4 | ➤ \u001B[0m to \u001B[31mView data of student\u001B[0m" +
-        "\n\u001b[47m\u001B[1mPress 5 | ➤ \u001B[0m to \u001B[31mExit the program\u001B[0m";
-
+        "\n\u001b[47m\u001B[1mPress 5 | ➤ \u001B[0m to \u001B[31mSee the members of the group\u001B[0m" +
+        "\n\u001b[47m\u001B[1mPress 6 | ➤ \u001B[0m to \u001B[31mExit the program\u001B[0m";
+    private static final String members = "\n\n\u001B[1mMembers:\u001B[0m\n\n" +
+        "\u001b[47m\u001B[1m 1. \u001B[0m Dave Marcos - \u001B[31mLead Developer, UI/UX Designer\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 2. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 3. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 4. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 5. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 6. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 7. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 8. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001B[1m 9. \u001B[0m Name - \u001B[31mMember\u001B[0m\n";
     public static void main(String[] args) {
         if (!folder.exists()) folder.mkdir();
         String menuError = "";
@@ -40,7 +51,8 @@ public class StudentSYSM {
                 case "2": viewAllStudents(); break;
                 case "3": deleteStudent(); break;
                 case "4": viewStudentData(); break;
-                case "5": exitProgram(); break;
+                case "5": clearScreen(); System.out.println(banner + "" + members + "\n"); waitForEnter(); break;
+                case "6": exitProgram(); break;
                 default: menuError = "[!] Invalid choice! Please enter [1-5: menu options]"; break;
             }
         }
