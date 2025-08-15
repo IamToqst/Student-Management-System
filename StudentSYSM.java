@@ -6,7 +6,7 @@ class FormState {
     public static void reset() { name = ""; lrn = ""; strand = ""; }
 }
 
-public class SYSTEMJAVA 
+public class StudentSYSM 
 {
     private static final File folder = new File("users");
     private static final Scanner sc = new Scanner(System.in);
