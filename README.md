@@ -1,19 +1,18 @@
-# ☕ Student Management System
+# Student Management System
 
 A simple **Java console application** to add, view, and delete student records,  
 featuring **file storage**, **colorful menus**, and **input validation**.
 
 ---
 
-## 👤 Author
+## Author
 **yToqst**
 
-## 🖥 Language Used
+## Language Used
 
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
-
-## 📌 Version
+![JAVA](https://img.shields.io/badge/JAVA-1a1a1a?style=for-the-badge&logo=java&logoColor=ff4d4d)
+## Version
 0.0.1
 
-## 🎯 About
+## About
 A school project built with care, style, and functionality.
