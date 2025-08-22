@@ -190,7 +190,7 @@ public class SYSTEMJAVA
         "\u001b[47m\u001b[30m 2. \u001B[0m Johncint F. Bagonoc - \u001B[31mAssistant Developer\u001B[0m\n" +
         "\u001b[47m\u001b[30m 3. \u001B[0m Mico Clemente - \u001B[31mTester, Bug Catcher\u001B[0m\n" +
         "\u001b[47m\u001b[30m 4. \u001B[0m Harold Bazar - \u001B[31mTester\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 5. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
+        "\u001b[47m\u001b[30m 5. \u001B[0m Jasmine Ybera - \u001B[31mIdeator\u001B[0m\n" +
         "\u001b[47m\u001b[30m 6. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
         "\u001b[47m\u001b[30m 7. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
         "\u001b[47m\u001b[30m 8. \u001B[0m Name - \u001B[31mMember\u001B[0m\n" +
