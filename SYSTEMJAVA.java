@@ -211,7 +211,7 @@ public class SYSTEMJAVA
                 case "4": case "view": viewStudentData(); break;
                 case "5": case "mem": case "members": clearScreen(); System.out.println(banner + "" + members + "\n"); waitForEnter(); break;
                 case "6": exitProgram(); break;
-                default: menuError = "[!] Invalid choice! Please enter [1-5: menu options]"; break;
+                default: menuError = "[!] Invalid choice! Please enter [1-6: menu options]"; break;
             }
         }
     }
@@ -275,6 +275,7 @@ public class SYSTEMJAVA
                 String input = sc.nextLine().trim();
                 if (input.equalsIgnoreCase("X")) { addingStudent = false; continue; }
                 if (input.isEmpty()) { error = "[!] LRN cannot be empty - please enter student ID number"; continue; }
+                if (!input.matches("\\d{12}")) { error = "[!] LRN must be 12 digits"; continue; }
                 if (!input.matches("\\d+")) { error = "[!] LRN should contain only numbers (no letters or symbols)"; continue; }
                 FormState.lrn = input; continue;
             } else System.out.println("\u001b[47m\u001b[30m Enter LRN (numbers only) | ➤ \u001B[0m " + FormState.lrn);
