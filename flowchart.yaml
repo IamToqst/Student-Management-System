@@ -1,0 +1,55 @@
+
+START
+  │
+  ▼
+Create "users" folder if not exists
+  │
+  ▼
+MAIN LOOP (Forever until exit)
+  │
+  ▼
+Show Main Menu
+  │
+  ▼
+Get User Choice
+  │
+  ┌─────────────────────────────────────────────────────────────┐
+  │1: Add      2: View All  3: Delete  4: View One  5: Members  6: Exit│
+  └─────────────────────────────────────────────────────────────┘
+  │                 │          │          │            │           │
+  ▼                 ▼         ▼          ▼           ▼           ▼
+ADD STUDENT      VIEW ALL   DELETE    VIEW ONE         SHOW          EXIT PROGRAM
+  │               │          │          │             MEMBERS       │
+  │               │          │          │              │            ▼
+  ▼              ▼          ▼          ▼              |          Show goodbye
+Reset Form     List all  List all     List all          │           Exit program
+  │             files     files        files            │
+  │             │          │             │             │
+  ▼            │          ▼             |             │
+For each field: Wait for  Get selection  ▼           Wait for
+- Show prompt  Enter key   │          Get selection   Enter key
+- Get input    │          ▼          │                 │
+- Validate     │        Confirm      ▼                 │
+  │          Return to   deletion   Show file         Return to
+  │          Main Menu   │          contents         Main Menu
+  ▼                     ▼                │
+If all fields filled:   Delete file        │
+  │                     │                  ▼
+  ▼                     │                 Ask: view another?
+Show confirmation       │                      │
+  │                     ▼                      │
+  ▼                   Ask: delete another?     │
+If confirmed:          │                        │
+  Save to file         ▼                       ▼
+  │                   Return to                Return to
+  ▼                   Main Menu                Main Menu
+Ask: add another?
+  │
+  ▼
+If no: Return to Main Menu
+If yes: Repeat Add Student
+
+KEY:
+│ = Normal flow
+▼ = Next step
+┌─┐ = Decision point
