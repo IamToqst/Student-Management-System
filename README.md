@@ -18,4 +18,4 @@ yToqst & Coxoral
 A school project built with care, style, and functionality.
 
 ## Flowchart
-[![Flowchart in PDF](preview.png)](docs/flowchart.pdf)
+[![Flowchart in PDF](flowchart.img)](docs/flowchart.pdf)
