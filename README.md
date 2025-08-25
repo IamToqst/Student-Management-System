@@ -6,8 +6,7 @@ featuring **file storage**, **colorful menus**, and **input validation**.
 ---
 
 ## Authors
-Lead developer: **yToqst** 
-Asst developer: **Coxoral**
+yToqst & Coxoral
 
 ## Language Used
 
@@ -19,4 +18,4 @@ Asst developer: **Coxoral**
 A school project built with care, style, and functionality.
 
 ## Flowchart
-[![PDF Preview](preview.png)](docs/report.pdf)
+[![Flowchart in PDF](preview.png)](docs/flowchart.pdf)
