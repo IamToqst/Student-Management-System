@@ -19,6 +19,7 @@ A school project built with care, style, and functionality.
 
 ## Flowchart
 [![Flowchart in PDF](flowchart.img)](docs/flowchart.pdf)
+[![Flowchart in PDF](flowchart2.img)](docs/flowchart2.pdf)
 
 ## Abstract
 
