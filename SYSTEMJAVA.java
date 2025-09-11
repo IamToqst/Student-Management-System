@@ -187,11 +187,11 @@ public class SYSTEMJAVA
         "\n\u001b[47m\u001B[1mPress 6 | ➤ \u001B[0m to \u001B[31mExit the program\u001B[0m";
     private static final String members = "\n\n\u001B[1mMembers:\u001B[0m\n\n" +
         "\u001b[47m\u001b[30m 1. \u001B[0m Dave Marcos - \u001B[31mLead Developer, UI/UX Designer\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 2. \u001B[0m Johncint F. Bagonoc - \u001B[31mAssistant Developer, Flowchart designer, & Ideator\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 3. \u001B[0m Mico Clemente - \u001B[31mTester, Bug Catcher, Abstarct\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 4. \u001B[0m Harold Bazar - \u001B[31mTester, Abstract\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 5. \u001B[0m Jasmine Ybera - \u001B[31mIdeator, Flowchart designer\u001B[0m\n" +
-        "\u001b[47m\u001b[30m 6. \u001B[0m Laniejenn Balistoy - \u001B[31mMember, Flowchart designer\u001B[0m\n";
+        "\u001b[47m\u001b[30m 2. \u001B[0m xxxxxxxxxxxxxxxxx - \u001B[31mAssistant Developer, Flowchart designer, & Ideator\u001B[0m\n" +
+        "\u001b[47m\u001b[30m 3. \u001B[0m xxxxxxxxxxxxxxxxx - \u001B[31mTester, Bug Catcher, Abstarct\u001B[0m\n" +
+        "\u001b[47m\u001b[30m 4. \u001B[0m xxxxxxxxxxxxxxxxx - \u001B[31mTester, Abstract\u001B[0m\n" +
+        "\u001b[47m\u001b[30m 5. \u001B[0m xxxxxxxxxxxxxxxxx - \u001B[31mIdeator, Flowchart designer\u001B[0m\n" +
+        "\u001b[47m\u001b[30m 6. \u001B[0m xxxxxxxxxxxxxxxxx - \u001B[31mMember, Flowchart designer\u001B[0m\n";
     public static void main(String[] args) {
         if (!folder.exists()) folder.mkdir();
         String menuError = "";
