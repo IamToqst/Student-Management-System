@@ -6,7 +6,7 @@ featuring **file storage**, **colorful menus**, and **input validation**.
 ---
 
 ## Authors
-yToqst & Coxoral
+yToqst
 
 ## Language Used
 
@@ -18,8 +18,7 @@ yToqst & Coxoral
 A school project built with care, style, and functionality.
 
 ## Flowchart
-[![Flowchart in PDF](flowchart1.png)](docs/flowchart.pdf)
-[![Flowchart in PDF](flowchart.png)](docs/flowchart.pdf)
+// deleted
 
 ## Abstract
 
